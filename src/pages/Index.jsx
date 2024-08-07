@@ -1,10 +1,10 @@
-import { Paw } from "lucide-react";
+import { Dog } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-yellow-50">
       <div className="text-center max-w-2xl px-4">
-        <Paw className="h-16 w-16 text-yellow-600 mx-auto mb-6" />
+        <Dog className="h-16 w-16 text-yellow-600 mx-auto mb-6" />
         <h1 className="text-4xl font-bold mb-4 text-yellow-800">Welcome to Paw-some Dogs</h1>
         <p className="text-xl text-yellow-700 mb-8">Discover the joy and companionship that dogs bring to our lives!</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
